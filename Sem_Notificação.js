@@ -2,7 +2,7 @@
 // @name           Sem Notificação
 // @description    Remove as notificações de todos os sites do navegador.
 // @namespace      CowanNOT
-// @license        CowBas
+// @license        GPL-3.0
 // @version        1.0
 // @author         Cowanbas
 // @match          *://*/*
@@ -42,3 +42,4 @@
     observer.observe(document.body, { childList: true, subtree: true });
 
 })();
+
